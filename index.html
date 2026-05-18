@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fortune</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Choose your Fortune</h1>
+    <p id="question">Pick a color:</p>
+
+ <div id="choices">
+  <button class="orange" onclick="nextStep('orange')">Orange</button>
+  <button class="blue" onclick="nextStep('blue')">Blue</button>
+  <button class="green" onclick="nextStep('green')">Green</button>
+  <button class="pink" onclick="nextStep('pink')">Pink</button>
+</div>
+
+    <p id="fortune"></p>
+
+    <button id="restart" onclick="restartGame()">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
