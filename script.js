@@ -22,10 +22,10 @@ function nextStep(answer) {
     question.innerHTML = "Choose an emotion:";
 
     choices.innerHTML = `
-      <button onclick="nextStep('star')">(˶˃ ᵕ ˂˶)</button>
-      <button onclick="nextStep('eye')">˙𐃷˙</button>
-      <button onclick="nextStep('heart')">(˶˃⤙˂˶)</button>
-      <button onclick="nextStep('cloud')">(っ- ‸ - ς)</button>
+      <button onclick="nextStep('happy')">(˶˃ ᵕ ˂˶)</button>
+      <button onclick="nextStep('silly')">˙𐃷˙</button>
+      <button onclick="nextStep('hungry')">(˶˃⤙˂˶)</button>
+      <button onclick="nextStep('sad')">(っ- ‸ - ς)</button>
     `;
 
     step++;
